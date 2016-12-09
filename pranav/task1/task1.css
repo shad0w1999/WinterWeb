@@ -1,0 +1,13 @@
+body{
+	margin: 0px;
+	background: lightblue;
+}
+
+div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+	font-family: "Monotype corsiva";
+	font-size: 40px;
+}
