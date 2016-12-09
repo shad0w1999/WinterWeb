@@ -1,0 +1,8 @@
+Quite a few of you have already finished the task, but one doubt that keeps popping up us that when you try to push to master, it gives you an error message saying that you can't push yet because the remote contains work that you do not have locally. What this means is that after you cloned the repo to your local pc, someone else has made changes to it online, and thus what you have locally is not the latest copy. Hence before you push new stuff, you need to make sure that you have the latest copy of the repo locally. So when you see this error,
+
+git pull origin
+git push origin master
+
+When you do a git pull, it will ask you for a merge message. The default editor that will open up is usually vim, and it's very confusing. Type the message, and to exit, press the escape key and type :wq. If anyone wants to know how vim works, google it, I'm not going to get into that.
+
+Also the rest of you who have not yet started, try getting started with git in a day or two, so that we can move forward with the actual Web Dev tasks :)
