@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<div class="nav"><h1>Shopping List</h1></div>
+	<!--<div class="items">
+		<span> Apples  - 5 Rs  </span><br>
+		<span> Fruit  - 6 Rs </span><br>
+		<span> Bananas - 7 Rs </span><br>
+		<span> Vegetables - 9 Rs </span><br>
+		<span> Meat - 10 Rs </span>
+	</div>
+
+		<div class="field"><input type="text" id="Item1" value="0"><button onclick="dec(1)">-</button> <button onclick="inc(1)">+</button><br>
+		<input type="text" id="Item1" value="0"> <button onclick="dec(2)">-</button> <button onclick="inc(2)">+</button> <br>
+		
+		<input type="text" id="Item1" value="0"> <button onclick="dec(3)">-</button> <button onclick="inc(3)">+</button> <br>
+		
+		<input type="text" id="Item1" value="0"> <button onclick="dec(4)">-</button> <button onclick="inc(4)">+</button> <br>
+		
+		<input type="text" id="Item1" value="0"> <button onclick="dec(5)">-</button> <button onclick="inc(5)">+</button>
+		</div>-->
+		<br><br><br>
+	<div class="table">
+		<table>
+			<tr>
+				<td><span>Item</span></td>
+				<td><span>Price</span></td>
+				<td><span>Quantity</span></td>
+			</tr>
+			<tr>
+				<td><span> Apples </span></td>
+				<td><span>5 Rs</span></td>
+				<td><input type="text" id="Item1" value="0">&nbsp; &nbsp;&nbsp; &nbsp; <button onclick="dec(1)">-</button> &nbsp; &nbsp;<button onclick="inc(1)">+</button></td>
+			</tr>
+			<tr>
+				<td><span> Fruit </span></td>
+				<td><span>6 Rs</span></td>
+				<td><input type="text" id="Item2" value="0"> &nbsp; &nbsp;&nbsp; &nbsp;<button onclick="dec(2)">-</button> &nbsp; &nbsp;<button onclick="inc(2)">+</button></td>
+			</tr>
+			<tr>
+				<td><span> Bananas </span></td>
+				<td><span>7 Rs</span></td>
+				<td><input type="text" id="Item3" value="0"> &nbsp; &nbsp;&nbsp; &nbsp;<button onclick="dec(3)">-</button> &nbsp; &nbsp;<button onclick="inc(3)">+</button></td>
+			</tr>
+			<tr>
+				<td><span> Vegetables </span></td>
+				<td><span>9 Rs</span></td>
+				<td><input type="text" id="Item4" value="0"> &nbsp; &nbsp;&nbsp; &nbsp;<button onclick="dec(4)">-</button> &nbsp; &nbsp;<button onclick="inc(4)">+</button> </td>
+			</tr>
+			<tr>
+				<td><span> Meat </span></td>
+				<td><span>10 Rs</span></td>
+				<td><input type="text" id="Item5" value="0"> &nbsp; &nbsp;&nbsp; &nbsp;<button onclick="dec(5)">-</button> &nbsp; &nbsp;<button onclick="inc(5)">+</button></td>
+			</tr>
+		</table>
+	</div>
+	<br> <br> 
+	Total : <textarea id="answer"></textarea> <br> <br>
+
+	<button class="final" onclick="calc()">Calculate</button>
+	
+	<button class="final" onclick="reset()">Reset</button>
+	
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<script type="text/javascript" src="menu.js"></script>
+</body>
+</html>
