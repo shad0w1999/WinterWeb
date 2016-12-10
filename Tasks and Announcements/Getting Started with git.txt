@@ -1,0 +1,42 @@
+Hey everyone :)
+
+I think by now all of you know that we are going to be following a task based approach. We'll be giving you a task and the resources needed, and you guys will submit the code. This submission process will take place via GitHub, so we expect everyone to acquire atleast a working knowledge of Git. I'm going to go through the steps needed to submit your code in this post.
+
+Step 1:
+Go to https://github.com/ and sign up. If you're already signed up, directly login.
+
+Step 2:
+Github stores code in repositories, which you can bascially think of as folders for your code. Multiple people can collaborate on one repo and work together. Once you login, go to the repo that has been created for the winter project.
+
+https://github.com/ankitgohel1996/WinterWeb
+
+Step 3:
+You can work via the Github desktop app, but learning how to navigate your way around the command line is essential, so we suggest using the command line. Linux/Mac users can directly access git via the terminal, but windows users cannot. So all those who use Windows, download and install a software called Git Bash. 
+
+https://git-scm.com/downloads
+
+Step 4:
+In this step we clone the existing repo. Cloning essentially means creating a copy of the repository on your local computer. This is done by the command git clone. When you click the green button on the repo page which says clone/download, you'll see a link. Navigate to the desired directory through git bash, and then type git clone <link>
+
+Step 5:
+Once you have cloned the repo, navigate into it using the command cd <reponame>. Create a new folder with your name, and inside this folder, create any empty .txt file and save it with <yourname>.txt. Since this is done locally, the changes won't show up on the repo. Here we have two commands, add and commit. Add adds the new changes made to a staging area, where it prepares to be commited. After that when you use the git commit command, it commits these changes. The syntax for these commands is :
+
+git add .
+git commit -m"My first commit"
+
+. specifies to add all changes.
+
+Step 6:
+Once the changes have been committed, you need to push these changes online. The command for this is 
+
+git push origin master
+
+Following which you will be asked for your username and password. If everything goes correctly, the changes will be pushed. Now when you navigate to the repo on github, you should see a folder with your name having a .txt file in it.
+
+I'm not going to go into the details of what stuff like origin and master mean, as it isn't entirely needed right now. But I'll give you guys a few resources for whoever is interested. Following these basic steps will be how you guys will be submitting your code for each of the tasks. Code for each task will go into your own folder. So everytime you want to upload something, clone the repo, make changes locally inside your own folder, add, commit and push. 
+
+I want each one of you to try this out within the next two days. Any doubts can be asked here, or feel free to PM any one of us.
+
+For those who want to understand what the commands I've specified here mean:
+
+https://www.sitepoint.com/git-for-beginners/

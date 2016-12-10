@@ -1,0 +1,15 @@
+Hey everyone :)
+
+So we're going to get started with the first task. Make a simple HTML page that says Hello World, with a few specifications:
+
+1. The font should be monotype corsiva.
+2. The font size should be 40.
+3.The background colour of the entire page should be light blue.
+
+As an extra challenge, the hello world should be horizontally and vertically aligned on your page.
+
+When you're done, follow the same procedure. Clone the repo (if you haven't already done it), copy the files into your folder locally, add them using git add . ,and commit and push it to the repository on GitHub. The commit message should be "first task" and your html file name should be task1.html. Also, take a screenshot of your work and upload it with the html file. Feel free to PM/ask on the group if you have any doubts.
+
+Some resources:
+http://www.w3schools.com/html/
+http://www.w3schools.com/css/
