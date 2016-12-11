@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+}
+
+.color {
+	display: inline-block;
+	vertical-align: top;
+	height: 100vh;
+	width: calc(100% / 7);
+}
+
+.color:hover {
+	opacity: 0.5;
+}
+
+#violet {
+	background: violet;
+}
+
+#indigo {
+	background: indigo;
+}
+
+#blue {
+	background: blue;
+}
+
+#green {
+	background: green;
+}
+
+#yellow {
+	background: yellow;
+}
+
+#orange {
+	background: orange;
+}
+
+#red {
+	background: red;
+}
