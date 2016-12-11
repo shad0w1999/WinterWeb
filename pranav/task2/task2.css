@@ -4,7 +4,7 @@ body {
 
 .color {
 	display: inline-block;
-    vertical-align: top;
+	vertical-align: top;
 	height: 100vh;
 	width: calc(100% / 7);
 }
