@@ -2,47 +2,52 @@ body{
 	height:100%;
 	margin:0px;
 }
+.flex-container{
+	display:-webkit-flex;
+	display: flex;
+	margin:0px;
+	width: 100%;
+	height:100%;
+}
+
+.flex-item{
+	margin : 0px;
+}
+
 #v{
 	background-color: black;
 	width:14.3%;
 	height: 100vh;
-	float:left;
 }
 #i{
 	background-color: indigo;
 	width:14.3%;
 	height: 100vh;
-	float:left;
 }
 #b{
 	background-color: blue;
 	width:14.3%;
 	height: 100vh;
-	float:left;
 }
 #g{
 	background-color: green;
 	width:14.3%;
 	height: 100vh;
-	float:left;
 }
 #y{
 	background-color: yellow;
 	width:14.3%;
 	height: 100vh;
-	float:left;
 }
 #o{
 	background-color: orange;
 	width:14.3%;
 	height: 100vh;
-	float:left;
 }
 #r{
 	background-color: red;
 	width:14.2%;
 	height: 100vh;
-	float:left;
 }
 
 #v:hover,#i:hover,#b:hover,#g:hover,#y:hover,#o:hover,#r:hover{
