@@ -1,0 +1,18 @@
+Here is your third task, it's going to be related to external and internal linking, and a bit of Web Design.
+
+We want you to make a header and 3 divs, each div will span the entire height and width of the page. The header will contain three links, named section 1, section 2 and section 3. Clicking on any of them will take you to the respective section.
+
+Each div should satisfy the following criteria:
+1. Should span the entire page
+2. Should have a title-Section1, Section 2, Section 3
+3. Should contain any random image of your choice. The image should have a caption which is in bold and italics.
+4. Should contain two links which link to the other two sections.
+5. Should contain a link to any random image of your choice
+
+We want you to use an external stylesheet for this task. To know what that is, read through this link
+
+http://www.w3schools.com/css/css_howto.asp
+
+As a bonus, make it look as good as you can. We're looking for something that's presented as well as you can so try to look at some good single page websites for ideas.
+
+https://onepagelove.com/
