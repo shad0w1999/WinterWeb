@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	background: #111;
+	color: rgba(200, 200, 200, 1);
+	font-family: Verdana;
+}
+
+#title {
+	color: rgb(100, 210 , 180);
+	text-align: center;
+	padding: 4vh 0;
+	width: 100%;
+	font-variant: small-caps;
+	font-size: 5vmax;
+}
+
+#total {
+	color: rgba(100, 210 , 180, 0.8);
+	position: fixed;
+	bottom: 0vh;
+	width: 100%;
+	padding: 4vh 0;
+	background: #000;
+	opacity: 0.8;
+	font-size: 6vmin;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-style: italic;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+#answer {
+	font-weight: lighter;
+	padding-right: 10vw;
+}
+
+table {
+	padding: 3vh 3vw;
+	margin: 0 0 15vh 0;
+	text-align: center;
+	width: 100%;
+	font-size: 2.8vmax;
+}
+
+tr:first-child {
+	background: rgba(100, 100, 100, 0.5);
+	font-variant: small-caps;
+	color: rgba(170, 170, 100, 0.9);
+}
+
+tr:hover:not(:first-child) {
+	background: rgba(100, 100, 100, 0.12);
+}
+
+td {
+	padding: 3vh 3vw;
+}
+
+input[type=number] {
+	padding: 0.3vmax 0.5vmax;
+	height: 3.2vmax;
+	width: 9.6vmax;
+	min-width: 60px;
+	vertical-align: middle;
+	font-size: 2.8vmax;
+	border: 0px solid;
+	border-radius: 2vmin;
+}
+
+input[type=number]:focus {
+	background: #999;
+	outline: none;
+}
+
+button {
+	height: 8vh;
+	width: 10vw;
+	min-width: 60px;
+	position: absolute;
+	left: 1vw;
+	-moz-transform: translate(50%);
+	-webkit-transform: translate(50%);
+	transform: translate(50%);
+	vertical-align: middle;
+	font-size: 2.2vmax;
+	background: rgba(100, 100, 100, 0.8);
+	color: rgba(230, 230, 230, 0.8);
+	border: none;
+	border-radius: 2vmin;
+	outline: none;
+}
