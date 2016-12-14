@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+	color: white;
+	font-family: Verdana;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	background: #333;
+	opacity: 0.7;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	z-index: 1;
+	font-variant: small-caps;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav a {
+	display: block;
+	text-align: center;
+	width: calc(100% / 3);
+	padding: 1%;
+	color: #FFFFFF;
+	font-size: 4vh;
+}
+
+nav a:hover {
+	background: #555;
+}
+
+section {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.links {
+	background: #111;
+	position: relative;
+	top: 50%;
+	width: 20vmax;
+	font-size: 4vmin;
+	border-radius: 0 1.5vmin 1.5vmin 0;
+	cursor: pointer;
+}
+
+.links a {
+	display: block;
+	padding: 3%;
+}
+
+.links a:hover:not(.imageCaption){
+	opacity: 0.6;
+}
+
+.imageCaption {
+	background: #333;
+	font-variant: small-caps;
+	box-shadow: 0 0 0.6vmin 0.1vmin;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.imageCaption:hover {
+	background: #444;
+}
+
+.sectionName {
+	padding: 1%;
+	background: rgba(50, 50, 50, 0.4);
+	border-color: #dddddd;
+	/*border-right-style: solid;*/
+	border-bottom-style: solid;
+	border-width: 0.5vw;
+	position: relative;
+	top: 40%;
+	width: 21vmax;
+	font-variant: small-caps;
+	font-weight: bolder;
+	font-style: italic;
+	font-size: 4.5vmin;
+	border-radius: 0 1.5vmin 1.5vmin 0;
+}
+
+#section1 {
+	background-image: url('images/die.jpg');
+}
+
+#section2 {
+	background-image: url('images/marble.jpg');
+}
+
+#section3 {
+	background-image: url('images/clock.jpg');
+}
+
+.closedImage {
+	display: none;
+}
+
+.openedImage {
+	position: fixed;
+	z-index: 1;	
+	top: 0;
+	background: rgba(25, 25, 25, 0.6);
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#image {
+
+	background-color: rgba(5, 5, 5, 0.6);
+	background-image: url();
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 90%;
+	min-height: 80%;
+	transform: translate(-50%, -50%);
+}
+
+#close {
+	display: block;
+	height: 100vh; 
+}
+
+#closeButton {
+	padding: 2vh 2vw;
+	font-size: 3vmin;
+	cursor: pointer;
+	color: #999;
+}
