@@ -7,7 +7,7 @@ Each div should satisfy the following criteria:
 2. Should have a title-Section1, Section 2, Section 3
 3. Should contain any random image of your choice. The image should have a caption which is in bold and italics.
 4. Should contain two links which link to the other two sections.
-5. Should contain a link to any random image of your choice
+5. Should contain a link to any image of your choice
 
 We want you to use an external stylesheet for this task. To know what that is, read through this link
 
