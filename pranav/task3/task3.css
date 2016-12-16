@@ -109,7 +109,7 @@ section {
 
 .openedImage {
 	position: fixed;
-	z-index: 1;	
+	z-index: 1;
 	top: 0;
 	background: rgba(25, 25, 25, 0.6);
 	min-width: 100%;
@@ -133,7 +133,7 @@ section {
 
 #close {
 	display: block;
-	height: 100vh; 
+	height: 100vh;
 }
 
 #closeButton {
