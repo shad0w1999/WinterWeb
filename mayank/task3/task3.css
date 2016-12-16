@@ -1,3 +1,6 @@
+body{
+	background-color:lightskyblue;
+}
 #Section1 img{
 
 	width:60%;
@@ -17,17 +20,10 @@
 	height:80%;
 }
 
-
-#Section1 {
-	
-	text-align: center;
+.Sections{
+	text-align:center;
 }
 
-#Section2 {
-	text-align: center;
+.Sections a{
+	text-decoration:none;
 }
-
-#Section3 {
-	text-align: center;
-}
-
