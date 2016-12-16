@@ -2,7 +2,7 @@
 	.header-container{
 		display:flex;
 		flex-wrap: wrap;
-		position: relative;
+		position: fixed;
 		height: 60px;
 		background-color: green;
 	}
@@ -10,6 +10,7 @@
 		width: calc(100%/3);
 		height: 50px;
 		font-size: 20px;
+		float: left;
 		color: white;
 		transform: translateY(50%);
 		text-align: center;
