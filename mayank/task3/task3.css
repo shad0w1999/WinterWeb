@@ -1,0 +1,29 @@
+body{
+	background-color:lightskyblue;
+}
+#Section1 img{
+
+	width:60%;
+	height:80%;
+}
+
+
+#Section2 img{
+
+	width:60%;
+	height:80%;
+}
+
+#Section3 img{
+
+	width:70%;
+	height:80%;
+}
+
+.Sections{
+	text-align:center;
+}
+
+.Sections a{
+	text-decoration:none;
+}
