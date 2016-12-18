@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<title>Task 3</title>
+	<link rel="stylesheet" type="text/css" href="task3.css" />
+	<script type="text/javascript" src="task3.js"></script>
+</head>
+<body>
+<nav>
+	<a href="#section1">Section 1</a>
+	<a href="#section2">Section 2</a>
+	<a href="#section3">Section 3</a>
+</nav>
+<section id="section1">
+	<div class="sectionName">Section 1</div>
+	<div class="links">
+		<a class="imageCaption links" onclick="getImage('die')">Die</a>
+		<a href="#section2">Section 2</a>
+		<a href="#section3">Section 3</a>
+		<a onclick="getRandomImage()">Random</a>
+	</div>
+</section>
+<section id="section2">
+	<div class="sectionName">Section 2</div>
+	<div class="links">
+		<a class="imageCaption links" onclick="getImage('marble')">Marble</a>
+		<a href="#section1">Section 1</a>
+		<a href="#section3">Section 3</a>
+		<a onclick="getRandomImage()">Random</a>
+	</div>
+</section>
+<section id="section3">
+	<div class="sectionName">Section 3</div>
+	<div class="links">
+		<a class="imageCaption links" onclick="getImage('clock')">Clock</a>
+		<a href="#section1">Section 1</a>
+		<a href="#section2">Section 2</a>
+		<a onclick="getRandomImage()">Random</a>
+	</div>
+</section>
+<div class="closedImage">
+	<a id="close" onclick="closeImage()"><p id="closeButton">X</p></a>
+	<div id="image"></div>
+</div>
+</body>
+</html>

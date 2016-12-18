@@ -1,0 +1,2 @@
+This is more a task based on your understanding of the page layout. Make 7 vertical columns spanning exactly the entire page in the colours VIBGYOR and make sure there is no space between them and they cover the entire page exactly both vertically and horizontally.
+Extra - If you can make it so that on hover of one of the columns the opacity of that column reduces to 50% the original value
