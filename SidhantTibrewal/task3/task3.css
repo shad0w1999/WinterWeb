@@ -1,0 +1,89 @@
+body
+{
+	margin:0;
+}
+div.main
+{
+	background: #5F5F5F;
+	min-width: 100%;;
+	border-style: solid;
+	border-width: 1px;
+	margin-left: -4px;
+	margin-right: 4px;
+	align-items: center;
+	padding-left: 4px;
+}
+div.tab
+{
+	color: white;
+	font-family: segoe ui;
+	font-size: 21px;
+	text-align: center;
+	background: #5F5F5F;
+	display:inline-block;
+	min-width: calc(100%/3);
+	margin-left: -4px;
+	padding-top: 3px;
+}
+div.section1
+{
+	color: #34495e;
+	font-family: segoe ui;
+	padding-top: 45px;
+	text-align: center;
+	font-size: 28px;
+	background-image: url("Pattern1.jpg");
+	background-size: cover;
+	min-width: 100%;
+	min-height: 100vh;
+	margin-left: -4px;
+}
+div.section2
+{
+	color: #34495e;
+	font-family: segoe ui;
+	font-size: 28px;
+	padding-top: 45px;
+	text-align: center;
+	background-image: url("Pattern3.jpg");
+	background-size: cover;
+	min-width: 100%;
+	min-height: 100vh;
+	margin-left: -4px;
+}
+div.section3
+{	
+	color: #34495e;
+	font-family: segoe ui;
+	font-size: 28px;
+	padding-top: 45px;
+	text-align: center;
+	background-image: url("Pattern2.jpg");
+	background-size: cover;
+	min-width: 100%;
+	min-height: 100vh;
+	margin-left: -4px;
+}
+div.tab:hover 
+{
+	background: #424242;
+}
+div.main:hover 
+{
+	background: #424242;
+}
+figure 
+{
+	margin:30px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-family: segoe ui;
+	font-size: 40px;
+	text-align: center;
+}
+
+a:link    {color:white; background-color:transparent; text-decoration:none}
+a:visited {color:white; background-color:transparent; text-decoration:none}
+a:hover   {color:grey; background-color:transparent; text-decoration:underline}
+a:active  {color:grey; background-color:transparent; text-decoration:underline}

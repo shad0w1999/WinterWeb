@@ -1,0 +1,54 @@
+body
+{
+	padding : 0;
+	margin : 0;
+	background-color: #ff9999;
+}
+
+div
+{
+	display: inline-block;
+	height: 50px;
+	font-size: 30px;
+	padding-top: 30;
+	padding-bottom: 30;
+	margin-left: -4px;
+	margin-top: -7px;
+	width: calc(100%/3);
+	background-color: #9999ff;
+	text-align: center;
+}
+
+#Sec2
+{
+	background-color: #6666ff;
+}
+
+nav
+{
+	text-align: center;
+	font-size: 25px;
+	font-family: Georgia, serif;
+}
+
+#b
+{
+	color: blue;
+	background-color: black;
+}
+#c
+{
+	background-color: #80ff80;
+	color: #ffff33;
+}
+#d
+{
+	background-color: #b3e6ff;
+}
+
+img
+{
+	border-width: 12px;
+	border-color: #cc66ff;
+	border-style: groove;
+}

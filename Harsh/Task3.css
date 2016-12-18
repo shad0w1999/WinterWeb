@@ -1,30 +1,39 @@
-<style type="text/css">
-	.header-container{
-		display:flex;
-		flex-wrap: wrap;
-		position: relative;
-		height: 60px;
-		background-color: green;
-	}
-	.header-item{
-		width: calc(100%/3);
-		height: 50px;
-		font-size: 20px;
-		color: white;
-		transform: translateY(50%);
-		text-align: center;
-		background-color: green;
-	}
-	#Section-1{
-		width: 100%;
-		height: 100%;
-	}
-	#Section-2{
-		width: 100%;
-		height: 100%;
-	}
-	#section-3{
-		width: 100%;
-		height: 100%;
-	}
-</style>
+.header-container{
+	display:flex;
+	flex-wrap: wrap;
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	top: 0;
+	background-color: green;
+}
+.header-item{
+	width: calc(100%/3);
+	height: 50px;
+	font-size: 20px;
+	float: left;
+	color: white;
+	transform: translateY(50%);
+	text-align: center;
+	background-color: green;
+}
+#Section-1{
+	width: 100%;
+	height: 100%;
+}
+#Section-2{
+	width: 100%;
+	height: 100%;
+}
+#section-3{
+	width: 100%;
+	height: 100%;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
