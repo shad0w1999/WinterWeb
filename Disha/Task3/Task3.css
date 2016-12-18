@@ -1,0 +1,81 @@
+body
+{
+padding : 0;
+margin : 0;
+}
+div
+{
+height : 25px;
+width : 33.33%;
+display: inline-block;
+padding : 0;
+margin-left : -8px;
+margin-top : -8px;
+}
+#left
+{
+text-align : center;
+font-size : 50px;
+background : yellow;
+padding : 50px 0;
+font-family : "monotype corsiva";
+}
+#middle
+{
+text-align : center;
+font-size : 50px;
+background : pink;
+padding : 50px 0;
+font-family : "monotype corsiva";
+}
+#right
+{
+text-align : center;
+font-size : 50px;
+background : lightblue;
+padding : 50px 0;
+font-family : "monotype corsiva";
+}
+nav
+{
+height : 100%;
+width : 100%;
+margin-left : 0;
+}
+#a
+{
+font-family: Impact, Charcoal, sans-serif;
+color : white;
+text-align : center;
+padding : 30px;
+font-size : 30px;
+background-image: url("Sec11.jpg");
+}
+#b
+{
+text-align : center;
+padding : 30px;
+font-size : 30px;
+background-image: url("Sec2.png");
+}
+#c
+{
+font-family: Impact, Charcoal, sans-serif;
+text-align : center;
+padding : 30px;
+font-size : 30px;
+background-image: url("Sec3.jpg");
+}
+#d
+{
+text-align : center;
+padding : 30px;
+font-size : 30px;
+background : cyan;
+}
+img 
+{
+padding: 20px;
+width : 40%;
+height : 50%;
+}
