@@ -48,6 +48,7 @@ div
   font-size: 40px;
   font-family: monospace;
 	margin-left: -8px;
+	color: white;
 }
 #Hsection1
 {
@@ -71,6 +72,7 @@ div
 {
   text-align: center;
 	background-image: url("1.jpg");
+	color: white;
 }
 #section2
 {
@@ -86,6 +88,7 @@ div
     animation-name: change;
     animation-duration: 10s;
 		animation-play-state: running;
+		animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes change {
@@ -95,5 +98,31 @@ div
 @keyframes change {
     from {background-color: red;}
     to {background-color: yellow;}
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+		padding: 1%;
+}
+.button1 {
+    background-color: black;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
 }
 }
