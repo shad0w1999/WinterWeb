@@ -33,8 +33,9 @@ h1
   background-color: navy;
   font-size: 40px;
   text-align: center;
-  height: 10vh;
+	height: 10vh;
   width : calc(100vw/3);
+	margin-top: -8px;
   font-family: monospace;
 }
 div
