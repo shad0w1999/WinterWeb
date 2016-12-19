@@ -10,6 +10,8 @@ nav {
   display: flex;
 	font-variant: small-caps;
   color: white;
+	margin-left: -8px;
+
 }
 
 a {
@@ -23,6 +25,7 @@ nav a {
 	padding: 1%;
 	color: white;
 	font-size: 4vh;
+	margin-left: -8px;
 }
 
 nav a:hover {
@@ -44,6 +47,7 @@ div
   width :  100vw;
   font-size: 40px;
   font-family: monospace;
+	margin-left: -8px;
 }
 #Hsection1
 {
