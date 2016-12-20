@@ -1,21 +1,31 @@
 body {margin:0;
 font-size: 50px;
 background-color: lightblue}
+#title {position: fixed}
 #one, #two {float:left;
             padding-right: 20vw}
+#name1,#name2,#name3 {
+    color: white;
+    margin-top: 80vh;
+    font-weight: bold;
+    font-style: italic;
+}
 #first {height:100vh;
         width:100vw;
+        padding-top: 10vh;
         background-image: url("second.jpg");
         background-repeat: no-repeat;
         background-size: 100% 90%}
 #second {height:100vh;
          width: 100vw;
+         padding-top: 10vh;
          background-image:url("fourth.jpg");
          background-repeat:none;}
 #third {height:100vh;
         width:100vw;
+        padding-top: 10vh;
         background-image: url("first.jpg");
         background-size: 100%}
 a:link, a:visited {
-	    color:hotpink;
+        color:hotpink;
         }

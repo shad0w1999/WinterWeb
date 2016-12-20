@@ -1,0 +1,64 @@
+body
+{
+	padding :               0;
+	margin :                0;
+	background-color:  #0099ff;	
+}
+
+div
+{
+	display:             inline-block;
+	height:                      50px;
+	font-size:                   50px;
+	padding-top:                   30;
+	padding-bottom:                30;
+	margin-left:                 -6px;
+	margin-top:                  -6px;
+	width:               calc(100%/3);
+	background-color:         #3366ff;
+	text-align:                center;
+}
+
+#Sec1
+{
+	background-color:      #000066;
+}
+#Sec2
+{
+	background-color:      #000099;
+}
+#Sec3
+{
+	background-color:      #0000cc;
+}
+
+
+nav
+{
+	text-align:                center;
+	font-size:                   60px;
+	font-family:        Comic Sans MS;
+}
+
+#2
+{	background-color: #000066;
+	color:            #003399;
+	
+}
+#3
+{
+	background-color: #000099;
+	color:            #0066ff;
+}
+#4
+{
+	background-color: #0000cc;
+	color:            #00ffff;
+}
+
+img
+{
+	border-width:        8px;
+	border-color:     #003399;
+	border-style:      groove;
+}
