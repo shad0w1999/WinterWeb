@@ -1,8 +1,5 @@
-body
+nav
 {
-
-}
-nav {
 	position: fixed;
 	width: 100%;
 	background: black;
@@ -14,11 +11,13 @@ nav {
 
 }
 
-a {
+a
+{
 	color: white;
 }
 
-nav a {
+nav a
+{
 	display: block;
 	text-align: center;
 	width: calc(100% / 3);
@@ -28,9 +27,11 @@ nav a {
 	margin-left: -8px;
 }
 
-nav a:hover {
+nav a:hover
+{
 	background: #555;
 }
+
 h1
 {
   background-color: navy;
@@ -41,6 +42,7 @@ h1
 	margin-top: -8px;
   font-family: monospace;
 }
+
 div
 {
   height : 100vh;
@@ -50,57 +52,61 @@ div
 	margin-left: -8px;
 	color: white;
 }
+
 #Hsection1
 {
-  background :blue;
-  text-align: center;
 	opacity: 0;
 }
+
 #Hsection2
 {
-  background :red;
-  text-align: center;
 	opacity: 0;
 }
+
 #Hsection3
 {
-   background :grey;
-  text-align: center;
 	opacity: 0;
 }
+
 #section1
 {
-  text-align: center;
+	text-align: center;
 	background-image: url("1.jpg");
 	color: white;
 }
+
 #section2
 {
   text-align: center;
 	background-image: url("2.jpg");
 	color: white;
 }
+
 #section3
 {
   text-align: center;
+	color: white;
 	-webkit-animation-name: change;
   -webkit-animation-duration: 10s;
-    animation-name: change;
-    animation-duration: 10s;
-		animation-play-state: running;
-		animation-iteration-count: infinite;
+  animation-name: change;
+  animation-duration: 10s;
+	animation-play-state: running;
+	animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes change {
+@-webkit-keyframes change
+{
     from {background-color: red;}
     to {background-color: yellow;}
 }
-@keyframes change {
+@keyframes change
+{
     from {background-color: red;}
     to {background-color: yellow;}
 }
 
-.button {
+.button
+{
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -114,15 +120,17 @@ div
     transition-duration: 0.4s;
     cursor: pointer;
 		padding: 1%;
+		color: white;
 }
-.button1 {
-    background-color: black;
-    color: black;
+.button1
+{
+    background-color: lightblue;
+    color: white;
     border: 2px solid #4CAF50;
 }
 
-.button1:hover {
+.button1:hover
+{
     background-color: #4CAF50;
     color: white;
-}
 }

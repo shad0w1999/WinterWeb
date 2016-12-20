@@ -2,7 +2,7 @@ So your fourth task is going to be related to forms. Forms are a very important 
 
 Your task is to create a simple registration form for any event of your liking, but the form necessarily has to contain the following components - textbox, textarea, a dropdown list where a user can select options from, checkboxes and a radio button. There should also be a submit button at the bottom of the form.
 
-I cannot stress this enough, but designing is very important.  A lot of you submitted task 3, but did not put in enough work on the design. For people to want to use stuff you make, it has to look good. Make sure that you keep in mind basics like alignment, font-sizes, spacing, colours etc. Try out different fonts, look at examples such as Google forms, and try to replicate it (this is just an example). 
+I cannot stress this enough, but designing is very important.  A lot of you submitted task 3, but did not put in enough work on the design. For people to want to use stuff you make, it has to look good. Make sure that you keep in mind basics like alignment, font-sizes, spacing, colours etc. Try out different fonts, look at examples such as Google forms, and try to replicate it (this is just an example).
 
 Here are some resources:
 
