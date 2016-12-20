@@ -3,26 +3,40 @@ h1
   padding: 1%;
   margin-top: -8px;
   margin-left: 33.33%;
+  margin-top: 8px;
   width: 33.33%;
-  border: 2px solid blue;
+  border: 2px solid red;
 text-align: center;
+}
+input::-webkit-input-placeholder {
+color: red;
+}
+.field_set{
+  border-color: red;
+  border-style: solid;
+  margin-left: 23.33%;
+  margin-right: 23.33%;
+  text-align: center;
 }
 body
 {
-  background-color: black;
+  background-color: hotpink;
   font-family: monospace;
   font-size: 20px;
   color: white;
   text-align: left;
+  color: red;
+  border: 2px solid red;
+  padding: 1%;
 }
 legend
 {
-  color: blue;
+  color: red;
   font-family: monospace;
 }
 .button
 {
-    background-color: grey;
+    background-color: hotpink;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -37,21 +51,20 @@ legend
 }
 .button1
 {
-    background-color: lightgrey;
-    color: black;
-    border: 2px solid grey;
+    background-color: pink;
+    color: hotpink;
+    border: 2px solid red;
 }
 
 .button1:hover
 {
-    background-color: grey;
+    background-color: hotpink;
     color: white;
-      border-bottom: 2px solid blue;
 }
 input[type=text] {
     width: 150px;
     box-sizing: border-box;
-    border: 2px solid blue;
+    border: 2px solid red;
     border-radius: 4px;
     font-size: 15px;
     background-color: white;
@@ -61,7 +74,8 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     font-family: monospace;
-    background-color: lightgrey;
+    background-color: pink;
+    color: red;
 }
 
 input[type=text]:hover {
@@ -70,7 +84,7 @@ input[type=text]:hover {
 input[type=password] {
     width: 150px;
     box-sizing: border-box;
-    border: 2px solid blue;
+    border: 2px solid red;
     border-radius: 4px;
     font-size: 15px;
     background-color: white;
@@ -80,7 +94,8 @@ input[type=password] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     font-family: monospace;
-    background-color: lightgrey;
+    background-color: pink;
+    color: red;
 }
 
 input[type=password]:hover {
@@ -91,13 +106,15 @@ select {
     padding: 16px 20px;
     border: none;
     border-radius: 4px;
-    background-color: lightgrey;
-    color: black;
+    background-color: pink;
+    color: hotpink;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     font-family: monospace;
-    border: 2px solid blue;
+    border: 2px solid red;
       width: 150px;
+      text-align: center;
+      color: red;
 }
 input[type=button], input[type=submit], input[type=reset] {
     border: none;
@@ -105,13 +122,20 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: lightgrey;
-    color: black;
-    border: 2px solid grey;
+    background-color: pink;
+    color: red;
+    border: 2px solid red;
   }
   input[type=submit]:hover
   {
-      background-color: grey;
+      background-color: hotpink;
       color: white;
-        border-bottom: 2px solid blue;
   }
+  fieldset
+  {
+    background-color: pink;
+  }
+.placeholder
+{
+color: red;
+}
