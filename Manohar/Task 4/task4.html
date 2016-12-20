@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task 4</title>
+	<link rel="stylesheet" type="text/css" href="task4.css">
+	<script type="text/javascript">
+		function Submit() {
+			alert("Thankyou for filling the form !!");
+		}
+	</script>
+</head>
+<body background="back.jpg">
+<div id="container">
+<div id="header">
+	<h1 id="h2"> Task 4 Form ! </h1>
+</div>
+<div id="side" >
+	<h2 id="s1">Personal details</h2><hr>
+	<h2 id="s2">Address</h2><hr>
+	<h2 id="s3">Education </h2>
+</div>
+<div id="main">
+	<form id="f1">
+		First Name :-<br>
+		<input type="text" name="firstname"><br><br>
+		Last Name :- <br>
+		<input type="text" name="lastname"><br><br>
+		Date of birth (D/M/Y) :-<br>
+		<input type="text" name="dob"><br><br>
+		Gender <input type="radio" name="Gender" value="male"> MALE <input type="radio" name="Gender" value="female"> FEMALE <br> 
+
+	</form>
+	<form id="f2">
+		Email Id : <br>
+		<input type="text" name="email" size="45">	<br><br>
+		Phone number :
+		<input type="text" name="1" value="+91" disabled size="1"> <input type="text" size="12" name="2" >	<br><br>
+		Alternate number :
+		<input type="text" name="1" value="+91" disabled size="1"> <input type="text" size="12" name="2" ><br><br>
+		Profession :
+			<select name="Profession">
+				<option value="Student"> Student </option>
+				<option value="why"> Form only for Students  </option>
+			</select>
+
+	</form>
+	<form id="f3">
+		Country:-  <br>
+		 	<select name="Country">
+			    <option value="India"> India </option>
+			    <option value="what?"> Select "India" -_- </option>
+			</select><br><br>
+		State :-<br> <input type="text" name="state" ><br><br>
+		District:- <br> <input type="text" name="dist" >
+		
+	</form>
+	<form id="f4">
+		City :- <br> <input type="text" name="city"><br><br>
+		Permanent Adress :- <br>
+		<textarea rows="4">
+			Enter your permanent adress 
+		</textarea><br><br>
+		Pin Code : <input type="text" name="pc">		
+	</form>
+
+	<form id="f5">
+		School Name: <br>
+		<input type="text" name="sc">		
+	</form>
+	<form id="f6">
+		Your College : <br>
+		<input type="checkbox" name="cl"> Manipal  <input type="checkbox" name="cl"> MIT,Manipal  <input type="checkbox" name="cl"> Manipal Institute :P 
+	</form>
+	
+</div>	
+<span style="cursor:pointer">
+	<div id="foot" onclick="Submit()">
+		<h2 id="h1"> Submit </h2>
+	</div>
+</span>
+</div>
+</body>
+</html>
