@@ -101,7 +101,8 @@ input[type=password] {
 input[type=password]:hover {
     width: 50%;
 }
-select {
+select
+{
     width: 100%;
     padding: 16px 20px;
     border: none;
@@ -113,8 +114,9 @@ select {
     font-family: monospace;
     border: 2px solid red;
       width: 150px;
-      text-align: center;
       color: red;
+      text-align: center;
+      text-align-last:center;
 }
 input[type=button], input[type=submit], input[type=reset] {
     border: none;
