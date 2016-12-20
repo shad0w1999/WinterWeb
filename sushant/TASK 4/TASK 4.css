@@ -1,0 +1,124 @@
+body
+{
+  background-color:   #66ccff;
+  font-family:        Comic Sans MS;
+  font-size:          40px;
+  color:              black;
+  text-align:         left;
+}
+h2
+{
+  background-color:  lightblue;
+  font-family:       TIMES NEW ROMAN;
+  font-color :       darkblue;
+  font-size:         80px;
+  text-align:        center;
+  padding:             2%;
+  margin-top:        -3px;
+  width:             100%;
+}
+.button
+{
+    display:          inline-block;
+    background-color: white;
+    border:           3px solid 0099ff;
+    color:            000066;
+    padding:          20px 40px;
+    text-align:       center;
+    font-size:        30px;
+    margin:           2px 1px;
+}
+.button1
+{
+    background-color:     9933ff;
+    color:                black;
+    border:               2px solid ffccff;
+    text-align:           center;
+    font-size:            30px;
+    margin:               2px 1px;
+}
+
+.button1:hover
+{
+      background-color: blue;
+      color:            white;
+      border-bottom:    2px solid green;
+}
+.button2
+{
+    background-color:     cc9900;
+    color:                black;
+    border:               2px solid ffff00;
+}
+.button3
+{
+    background-color:     9933ff;
+    color:                black;
+    border:               2px solid ffccff;
+    text-align:           center;
+    font-size:            30px;
+    margin:               2px 1px;
+}
+.button4
+{
+    background-color:     9933ff;
+    color:                black;
+    border:               2px solid ffccff;
+    text-align:           center;
+    font-size:            30px;
+    margin:               2px 1px;
+}
+.button5
+{
+    background-color:     9933ff;
+    color:                black;
+    border:               2px solid ffccff;
+    text-align:           center;
+    font-size:            30px;
+    margin:               2px 1px;
+}
+
+input[type=text] 
+{	
+    font-family:              Copperplate Gothic;
+    border:                   2px solid 00cc00;
+    border-radius:            5px;
+    padding:                  15px 25px 10px 30px;
+    font-size:                80px;
+    width =                   100%;
+    background-position:      20px 20px;
+    background-color:         ccffff;
+}
+input[type=button],
+input[type=submit], 
+input[type=reset] 
+{
+    padding:          20px 40px;
+    margin:           2px 1px;
+    cursor:           pointer;
+    background-color: 0066ff;
+    color:            black;
+    border:           2px solid blue;
+}
+input[type=submit]:hover
+{
+        background-color:     003399 ;
+        color:                black;
+        border-bottom:        3px solid green;
+}
+input[type=reset]:hover
+{
+        background-color:     9933ff;
+        color:                black;
+        border-bottom:        3px solid yellow;
+}
+select 
+{
+    background-color: lightblue;
+    color:            black;
+    width:            100%;
+    padding:          15px 20px;
+    border-radius:    5px;
+    font-family:      Segoe Print;
+    border:           2px solid blue;
+}
