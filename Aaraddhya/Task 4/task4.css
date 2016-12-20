@@ -9,7 +9,7 @@ text-align: center;
 }
 body
 {
-  background-image: url("Background.jpg");
+  background-color: black;
   font-family: monospace;
   font-size: 20px;
   color: white;
