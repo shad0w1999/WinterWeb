@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+	<title>Task 4</title>
+	<link rel="stylesheet" type="text/css" href="task4.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="task4.js"></script>
+</head>
+<body>
+<div id="title"><div>Registration</div></div>
+<form>
+<table id="form">
+<tr>
+	<th><label for="firstName">First Name</label></th>
+	<th><input type="text" name="firstName" id="firstName" required="required" /></th>
+</tr>
+<tr>
+	<th><label for="lastName">Last Name</label></th>
+	<th><input type="text" name="lastName" id="lastName" required="required" /></th>
+</tr>
+<tr>
+	<th><label for="birthday">Birthday</label></th>
+	<th><input type="date" name="birthday" id="birthday" required="required" /></th>
+</tr>
+<tr>
+	<th>Gender</th>
+	<th class="hasTable"><div>
+	<table class="options">
+		<tr>
+			<th><input type="radio" name="gender" id="male"  required="required" /></th>
+			<th><label for="male">Male</label></th>
+		</tr>
+		<tr>
+			<th><input type="radio" name="gender" id="female" required="required" /></th>
+			<th><label for="female">Female</label></th>
+		</tr>
+	</table></div>
+	</th>
+<tr>
+	<th><label for="address">Address</label></th>
+	<th><textarea name="address" id="address" required="required"></textarea></th>
+</tr>
+<tr>
+	<th><label for="branch">Branch</label></th>
+	<th>
+	<select name="branch" id="branch">
+		<option disabled="disabled" selected="selected">Select branch</option>
+	 	<option id="computerScience">Computer Science</option>
+	 	<option id="civilEngineering">Civil Engineering</option>
+	 	<option id="electricalEngineering">Electrical Engineering</option>
+	 	<option id="mechanical">Mechanical</option>
+	</select>
+	</th>
+</tr>
+<tr>
+	<th>Subjects</th>
+	<th class="hasTable"><div>
+	<table class="options">
+		<tr>
+			<th><input type="checkbox" name="subject" id="maths" /></th>
+			<th><label for="maths">Maths</label></th>
+		</tr>
+		<tr>
+			<th><input type="checkbox" name="subject" id="computers" /></th>
+			<th><label for="computers">Computers</label></th>
+		</tr>
+		<tr>
+			<th><input type="checkbox" name="subject" id="biology" /></th>
+			<th><label for="biology">Biology</label></th>
+		</tr>
+		<tr>
+			<th><input type="checkbox" name="subject" id="physics" /></th>
+			<th><label for="physics">Physics</label></th>
+		</tr>
+		<tr>
+			<th><input type="checkbox" name="subject" id="chemistry" /></th>
+			<th><label for="chemistry">Chemistry</label></th>
+		</tr>
+	</table></div>
+	</th>
+</tr>
+<tr>
+	<th><input type="reset" name="reset" id="reset" /></th>
+	<th><input type="submit" name="submit" id="submit" /></th>
+</tr>
+</table>
+</form>
+</body>
+</html>
