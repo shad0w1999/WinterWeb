@@ -9,19 +9,13 @@ body {
 	
 }
 
+h1{
+	font-family: serif;
+}
 
 fieldset{
 	background-color: white;
-	
-
 }
 
 
-
-legend {
-	font-size: 30px;
-	font-family: serif;
-	
-
-}
 
