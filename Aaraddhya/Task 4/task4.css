@@ -2,11 +2,12 @@ h1
 {
   padding: 1%;
   margin-top: -8px;
-  margin-left: 33.33%;
+  margin-left: 33%;
   margin-top: 8px;
   width: 33.33%;
   border: 2px solid red;
-text-align: center;
+  text-align: center;
+    border-radius: 8px;
 }
 input::-webkit-input-placeholder {
 color: red;
@@ -28,6 +29,7 @@ body
   color: red;
   border: 2px solid red;
   padding: 1%;
+    border-radius: 8px;
 }
 legend
 {
@@ -44,7 +46,7 @@ legend
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin: 4px 2px;
+    margin: 8px 2px;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -65,7 +67,7 @@ input[type=text] {
     width: 150px;
     box-sizing: border-box;
     border: 2px solid red;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 15px;
     background-color: white;
     background-position: 10px 10px;
@@ -78,14 +80,14 @@ input[type=text] {
     color: red;
 }
 
-input[type=text]:hover {
+input[type=text]:hover{
     width: 50%;
 }
 input[type=password] {
     width: 150px;
     box-sizing: border-box;
     border: 2px solid red;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 15px;
     background-color: white;
     background-position: 10px 10px;
@@ -103,20 +105,20 @@ input[type=password]:hover {
 }
 select
 {
-    width: 100%;
-    padding: 16px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: pink;
-    color: hotpink;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    font-family: monospace;
-    border: 2px solid red;
-      width: 150px;
-      color: red;
-      text-align: center;
-      text-align-last:center;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: pink;
+  color: hotpink;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  font-family: monospace;
+  border: 2px solid red;
+    width: 150px;
+    color: red;
+    text-align: center;
+    text-align-last:center;
+      border-radius: 8px;
 }
 input[type=button], input[type=submit], input[type=reset] {
     border: none;
@@ -127,6 +129,7 @@ input[type=button], input[type=submit], input[type=reset] {
     background-color: pink;
     color: red;
     border: 2px solid red;
+      border-radius: 8px;
   }
   input[type=submit]:hover
   {
@@ -136,6 +139,7 @@ input[type=button], input[type=submit], input[type=reset] {
   fieldset
   {
     background-color: pink;
+      border-radius: 8px;
   }
 .placeholder
 {
