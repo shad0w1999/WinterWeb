@@ -53,6 +53,7 @@ th:first-child {
 	border-right-color: rgba(250, 250, 250, 0.3);
 	padding-left: 5%;
 	text-align: left;
+	vertical-align: top;
 }
 
 th:last-child {
@@ -64,8 +65,9 @@ th:last-child {
 }
 
 .options th:first-child {
+	text-align: right;
 	border: none;
-	padding: 10px;
+	padding: 10px 0;
 }
 
 .options th:last-child {
