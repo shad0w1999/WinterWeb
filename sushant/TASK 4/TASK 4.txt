@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="TASK 4.css" />
+<title>Task 4</title>
+</head>
+
+<body>
+<h2 colour #000066;><img src = "https://mir-s3-cdn-cf.behance.net/team/138/293b7692333.576e57ef475f5.jpg" width="250" height="250"><br> FORM </h2>
+<br>
+<button type="button" onclick="alert('HI This is Sushant here.Would appreciate if you would fill in required details in the form for record purposes.YOUR DATA WONT BE SOLD OR SHARED WITH ANYONE!')"><h3>PRIVACY POLICY</h3></button>
+<br>
+<br>
+<form>
+<fieldset>
+<br>
+<legend>IECSE 2016-17 :</legend>
+<br>
+<input type="text" name="clgname" value="MIT MANIPAL" disabled>&emsp;&emsp;<img src ="https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/MIT_Manipal_Seal.svg/1146px-MIT_Manipal_Seal.svg.png" width="200" height="200">
+<br>
+<br> 
+  <input type="text" name="firstname" value="" placeholder="FIRST NAME :">
+<br>
+<br>
+  <input type="text" name="lastname" value="" placeholder="LAST NAME :">
+<br>
+<br>
+BIRTHDAY :<br>
+DATE :&emsp;
+  <input type="number" name="date"
+   min="1" max="31" step="1" value="1" >
+&emsp;MONTH AND YEAR :
+<input type="month" name="bdaymonth" >
+<br>
+<br>
+E-MAIL ID :
+<input type="email" name="email" >
+<br>
+<br>
+  FAVOURITE COLOUR:
+  <input type="color" name="favcolor" value="#0000ff" >
+<br>
+<br>
+GENDER :
+<br>
+  <input type="radio" name="gender" value="MALE"  checked> MALE<br>
+  <input type="radio" name="gender" value="FEMALE" > FEMALE<br>
+  <input type="radio" name="gender" value="OTHER" > OTHER
+<br>
+<br>
+YEAR OF STUDY :
+<br>
+  <select name="YEAR OF STUDY" >
+    <option value="I" >  I</option>
+    <option value="II" > II</option>
+    <option value="III">III</option>
+    <option value="IV" > IV</option>
+  </select>
+<br>
+<br>
+<br>
+YOUR ROLE IN IECSE :
+<br>
+  <select name="ROLE">
+    <option value="WC">WORKING COMMITTEE</option>
+    <option value="ManComm">MANAGEMENT COMMITTEE</option>
+    <option value="EB">EXECUTIVE BOARD</option>
+  </select>  
+<br>
+<br>
+<br>
+YOUR PASSION :
+<br>
+<br>
+  <input type="checkbox" name="passion1" value="CC" > I do competitive coding.<br>
+  <input type="checkbox" name="passion2" value="WD" > I do web development.<br> 
+  <input type="checkbox" name="passion3" value="AD" > I do android development.<br>
+  <input type="checkbox" name="passion4" value="RS" > I do research oriented projects.<br>
+  <input type="checkbox" name="passion5" value="DS" > I do designing of websites and apps.<br>
+  <input type="checkbox" name="passion6" value="GD" > I do game development.<br>
+  <input type="checkbox" name="passion7" value="OS" > OTHERS
+<br>
+<br>
+MESSAGE :
+<br>
+<textarea name="message" rows="20" cols="60">Your experience as part of IECSE....</textarea>
+<br>
+<br> 
+PLEASE RATE MY FIRST FORM : (in %)
+<br>
+0
+<input type="range" id="a" name="a" value="80">
+100
+<br>
+<input type="submit" value="Submit" width="200" height="200">&emsp;&emsp;&emsp;
+<input type="reset" value="Reset" width="200" height="200">
+</fieldset>
+</form> 
+</body>
+</html>

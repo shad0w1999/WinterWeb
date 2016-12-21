@@ -1,0 +1,160 @@
+body
+{
+  background-color:   #ccffff;
+  font-family:        Stylus BT;
+  font-size:          30px;
+  color:              black;
+  text-align:         left;
+}
+h2
+{
+  background-color:  #66ccff;
+  font-family:       Tempus Sans ITC;
+  font-color :       darkblue;
+  font-size:         50px;
+  text-align:        center;
+  padding:             2%;
+  margin-top:        -3px;
+  width:             100%;
+  position :         relative;
+}
+.button
+{
+    display:          inline-block;
+    background-color: white;
+    border:           3px solid #0099ff;
+    color:            #000066;
+    padding:          20px 40px;
+    text-align:       center;
+    font-size:        40px;
+    margin:           3px 2px;
+}
+.button1
+{
+    background-color:     #9933ff;
+    color:                black;
+    border:               2px solid #ffccff;
+    text-align:           center;
+    font-size:            50px;
+    width :               40%;
+    margin:               2px 1px;
+}
+
+.button1:hover
+{
+      background-color: blue;
+      color:            white;
+      border-bottom:    2px solid green;
+}
+.button2
+{
+    background-color:     #cc9900;
+    color:                black;
+    border:               2px solid #ffff00;
+}
+.button2:hover
+{
+      background-color: blue;
+      color:            white;
+      border-bottom:    2px solid green;
+}
+.button3
+{
+    background-color:     #9933ff;
+    color:                black;
+    border:               2px solid #ffccff;
+    text-align:           center;
+    font-size:            30px;
+    margin:               2px 1px;
+}
+input[type=text] 
+{	
+    font-family:      Copperplate Gothic;
+    padding:          20px;
+    font-size:        25px;
+    background-color: #99ffff;
+    color:            black;
+    width:            40%;
+    border-radius:    5px;
+    border:           2px solid blue;
+}
+input[type=radio]  
+{	
+    padding:          20px;	
+    background-color: #99ffff;
+    font-size:        10px;
+    color:            black;
+    width:            2%;
+    border-radius:    5px;
+    font-family:      Century Gothic;
+    border:           6px solid blue;
+}
+input[type=month], 
+input[type=number] 
+{	
+    padding:          15px 20px;	
+    background-color: #99ffff;
+    font-size:        20px;
+    color:            black;
+    width:            15%;
+    border-radius:    5px;
+    font-family:      Century Gothic;
+    border:           2px solid blue;
+}
+input[type=email]
+{	
+    padding:          15px 20px;	
+    background-color: #99ffff;
+    font-size:        20px;
+    color:            black;
+    width:            36%;
+    border-radius:    5px;
+    font-family:      Century Gothic;
+    border:           2px solid blue;
+}
+input[type=color]   
+{	
+    padding:          15px 20px;	
+    background-color: #99ffff;
+    font-size:        20px;
+    color:            black;
+    width:            4%;
+    border-radius:    5px;
+    font-family:      Century Gothic;
+    border:           2px solid blue;
+}
+input[type=button],
+input[type=submit], 
+input[type=reset] 
+{
+    padding:          20px 40px;
+    margin:           2px 1px;
+    cursor:           pointer;
+    font-size:        40px;
+    background-color: #66ccff;
+    color:            black;
+    border:           2px solid blue;
+}
+input[type=submit]:hover
+{
+        background-color:     #ffffff;
+        color:                black;
+        border-bottom:        3px solid green;
+}
+input[type=reset]:hover
+{
+        background-color:     #ffffff;
+        color:                black;
+        border-bottom:        3px solid yellow;
+}
+select 
+{
+    background-color: #99ffff;
+    font-size:        20px;
+    color:            black;
+    width:            40%;
+    padding:          15px 20px;
+    border-radius:    5px;
+    font-family:      Century Gothic;
+    border:           2px solid blue;
+} 
