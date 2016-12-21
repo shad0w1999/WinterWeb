@@ -1,8 +1,5 @@
-body
+nav
 {
-
-}
-nav {
 	position: fixed;
 	width: 100%;
 	background: black;
@@ -10,67 +7,130 @@ nav {
   display: flex;
 	font-variant: small-caps;
   color: white;
+	margin-left: -8px;
+
 }
 
-a {
+a
+{
 	color: white;
 }
 
-nav a {
+nav a
+{
 	display: block;
 	text-align: center;
 	width: calc(100% / 3);
 	padding: 1%;
 	color: white;
 	font-size: 4vh;
+	margin-left: -8px;
 }
 
-nav a:hover {
+nav a:hover
+{
 	background: #555;
 }
+
 h1
 {
   background-color: navy;
   font-size: 40px;
   text-align: center;
-  height: 10vh;
+	height: 10vh;
   width : calc(100vw/3);
+	margin-top: -8px;
   font-family: monospace;
 }
+
 div
 {
   height : 100vh;
   width :  100vw;
   font-size: 40px;
   font-family: monospace;
+	margin-left: -8px;
+	color: white;
 }
+
 #Hsection1
 {
-  background :blue;
-  text-align: center;
+	opacity: 0;
 }
+
 #Hsection2
 {
-  background :red;
-  text-align: center;
+	opacity: 0;
 }
+
 #Hsection3
 {
-   background :grey;
-  text-align: center;
+	opacity: 0;
 }
+
 #section1
 {
-  background :blue;
-  text-align: center;
+	text-align: center;
+	background-image: url("1.jpg");
+	color: white;
 }
+
 #section2
 {
-  background :red;
   text-align: center;
+	background-image: url("2.jpg");
+	color: white;
 }
+
 #section3
 {
-  background :grey;
   text-align: center;
+	color: white;
+	-webkit-animation-name: change;
+  -webkit-animation-duration: 10s;
+  animation-name: change;
+  animation-duration: 10s;
+	animation-play-state: running;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes change
+{
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+@keyframes change
+{
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+		padding: 1%;
+		color: white;
+}
+.button1
+{
+    background-color: lightblue;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover
+{
+    background-color: #4CAF50;
+    color: white;
 }

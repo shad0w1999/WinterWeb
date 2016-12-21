@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		<title>WebDev Task 4</title>
+		<link rel="stylesheet" type="text/css" href="task4.css"/>
+		</head>
+
+<body>
+
+	<form action= "action_page.php">
+	<fieldset>
+	<h1>Registration Form</h1>
+
+	<b>1.First name:</b><br>
+	<input type= "text" name="firstname" ><br><br>
+	<b>2.Last name:</b><br>
+	<input type= "text" name="lastname" ><br><br>
+
+
+	<b>3.Gender:</b><br>
+	<i>(Yes,we're very open minded)</i><br>
+	<input type= "radio" name= "gender" value= "male" checked> Male<br>
+	<input type= "radio" name= "gender" value= "female" checked> Female<br>
+	<input type= "radio" name= "gender" value= "other" checked> Other<br><br>
+	<b>4.Stream:</b><br>
+
+
+	<input list="Stream" name="stream">
+	<datalist id="Stream">
+		<option value= "Computer Science"></option>
+		<option value= "Information Technology"></option>
+		<option value= "Computers and Communication"></option>
+		<option value= "Mechanical"></option>
+		<option value= "Chemical"></option>
+		<option value= "Biomedical"></option>
+		<option value= "Bio-technology"></option>
+		<option value= "Aeronautical"></option>
+		<option value= "Automobile"></option>
+		<option value= "Instrumentation and Control"></option>
+	</datalist><br><br>
+
+	<b>5.Year:</b><br>
+	<input list= "Year" name= "year">
+	<datalist id= "Year">
+		<option value= "First Year"></option>
+		<option value= "Second Year"></option>
+	</datalist><br><br>
+
+
+	<b>Offline event you wish to Volunteer for/Organize:</b><br>
+	<i>No volunteer/organizer required for Online events</i><br>
+	<input type= "checkbox" name= "event1" value= "decepticode">Decepticode<br>
+	<input type= "checkbox" name= "event2" value= "bugtracking">Bug-Tracking<br>
+	<input type= "checkbox" name= "event3" value= "infinitywar">Infinity War<br><br>
+
+
+	<b>I want to volunteer for/organize the following events of Crytoss because:</b><br>
+	<textarea name= "messsage" rows= "10" cols= "60"></textarea><br><br>
+
+	<b>E-mail id:</b><br>
+	<input type= "email" name= "email"><br><br>
+
+	<b>Contact No:</b><br>
+	<input type= "tel" name= "usertel"><br><br>
+
+
+	<input type= "submit" onclick= "alert('Your form has been submitted')" value="Submit">
+	<input type= "reset"><br><br>
+	<i>Press submit and see what happens!</i>
+
+	</fieldset>
+	</form>
+</body>
+</html>
