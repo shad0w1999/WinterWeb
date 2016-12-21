@@ -1,38 +1,39 @@
 body
 {
-  background-color:   #66ccff;
-  font-family:        Comic Sans MS;
-  font-size:          40px;
+  background-color:   #ccffff;
+  font-family:        Stylus BT;
+  font-size:          30px;
   color:              black;
   text-align:         left;
 }
 h2
 {
-  background-color:  lightblue;
-  font-family:       TIMES NEW ROMAN;
+  background-color:  #66ccff;
+  font-family:       Tempus Sans ITC;
   font-color :       darkblue;
-  font-size:         80px;
+  font-size:         50px;
   text-align:        center;
   padding:             2%;
   margin-top:        -3px;
   width:             100%;
+  position :         relative;
 }
 .button
 {
     display:          inline-block;
     background-color: white;
-    border:           3px solid 0099ff;
-    color:            000066;
+    border:           3px solid #0099ff;
+    color:            #000066;
     padding:          20px 40px;
     text-align:       center;
-    font-size:        30px;
-    margin:           2px 1px;
+    font-size:        40px;
+    margin:           3px 2px;
 }
 .button1
 {
-    background-color:     9933ff;
+    background-color:     #9933ff;
     color:                black;
-    border:               2px solid ffccff;
+    border:               2px solid #ffccff;
     text-align:           center;
     font-size:            30px;
     margin:               2px 1px;
@@ -46,33 +47,39 @@ h2
 }
 .button2
 {
-    background-color:     cc9900;
+    background-color:     #cc9900;
     color:                black;
-    border:               2px solid ffff00;
+    border:               2px solid #ffff00;
+}
+.button2:hover
+{
+      background-color: blue;
+      color:            white;
+      border-bottom:    2px solid green;
 }
 .button3
 {
-    background-color:     9933ff;
+    background-color:     #9933ff;
     color:                black;
-    border:               2px solid ffccff;
+    border:               2px solid #ffccff;
     text-align:           center;
     font-size:            30px;
     margin:               2px 1px;
 }
 .button4
 {
-    background-color:     9933ff;
+    background-color:     #9933ff;
     color:                black;
-    border:               2px solid ffccff;
+    border:               2px solid #ffccff;
     text-align:           center;
     font-size:            30px;
     margin:               2px 1px;
 }
 .button5
 {
-    background-color:     9933ff;
+    background-color:     #9933ff;
     color:                black;
-    border:               2px solid ffccff;
+    border:               2px solid #ffccff;
     text-align:           center;
     font-size:            30px;
     margin:               2px 1px;
@@ -81,13 +88,12 @@ h2
 input[type=text] 
 {	
     font-family:              Copperplate Gothic;
-    border:                   2px solid 00cc00;
+    border:                   3px solid #000066;
     border-radius:            5px;
-    padding:                  15px 25px 10px 30px;
-    font-size:                80px;
-    width =                   100%;
-    background-position:      20px 20px;
-    background-color:         ccffff;
+    padding:                  15px 20px 10px 20px;
+    font-size:                40px;
+    width :                   60%;
+    background-color:         #66ccff;
 }
 input[type=button],
 input[type=submit], 
@@ -96,29 +102,31 @@ input[type=reset]
     padding:          20px 40px;
     margin:           2px 1px;
     cursor:           pointer;
-    background-color: 0066ff;
+    font-size:        40px;
+    background-color: #66ccff;
     color:            black;
     border:           2px solid blue;
 }
 input[type=submit]:hover
 {
-        background-color:     003399 ;
+        background-color:     #ffffff;
         color:                black;
         border-bottom:        3px solid green;
 }
 input[type=reset]:hover
 {
-        background-color:     9933ff;
+        background-color:     #ffffff;
         color:                black;
         border-bottom:        3px solid yellow;
 }
 select 
 {
-    background-color: lightblue;
+    background-color: #99ffff;
+    font-size:        20px;
     color:            black;
-    width:            100%;
+    width:            40%;
     padding:          15px 20px;
     border-radius:    5px;
-    font-family:      Segoe Print;
+    font-family:      Century Gothic;
     border:           2px solid blue;
-}
+} 
