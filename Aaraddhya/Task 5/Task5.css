@@ -1,0 +1,29 @@
+h1
+{
+  margin-left: -4px;
+  margin-top: 0px;
+  width : calc(100vw/4);
+  height: 2px;
+  display: inline-block;
+}
+#green
+{
+  background-color: green;
+}
+#blue
+{
+  background-color: blue;
+}
+#red
+{
+  background-color: red;
+}
+#yellow
+{
+  background-color: yellow;
+}
+
+body
+{
+  margin: 0;
+}
