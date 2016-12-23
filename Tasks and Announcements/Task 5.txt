@@ -1,0 +1,5 @@
+Hey guys :)
+
+Sorry for all the confusion, but we realised that the task we gave you guys is a little too difficult. So for this task, we're just going to focus on copying the design and not worry about making it responsive. Go to https://getpocket.com on your laptop, and click on the recommended tab. We want you to copy the layout of this page as closely as possible using HTML and CSS. The page does not have to be functional, we just want you to copy the design. Observe the page carefully and make your version look as close to the original as possible.
+
+Since this task is a little more complicated compared to the previous ones, we'll be giving you around 4 days to complete it. Make the most of it.
