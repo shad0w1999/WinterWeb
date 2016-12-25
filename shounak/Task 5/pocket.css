@@ -104,6 +104,7 @@ nav{
 
 
 .items a {
+	transition: all 0.3s ease;
 	text-decoration: none;
 	font-family: 'Montserrat','Roboto', sans-serif;
 	color:rgb(49,49,49);
@@ -172,10 +173,11 @@ h1{
 }
 
 .story-title {
-	margin-left: 20px;
+	padding-left: 20px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
-	height: 125px
+	height: 115px;
+	border-bottom: 1px solid rgb(237, 237, 237);
 }
 
 .story a{
@@ -197,6 +199,7 @@ h1{
 
 .story-buttons {
 	margin-left: 20px;
+	padding-top: 9px;
 }
 
 .save-button{
