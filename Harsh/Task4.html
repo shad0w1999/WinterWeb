@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body{
+			background-color: #2e2e1f;
+			color: white;
+			float: center;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		First Name: <br>
+		<input type="text" name="fname" required><br><br>
+
+		Last Name: <br>
+		<input type="text" name="lname" required><br><br>
+		
+		Sex: <br>
+		<input type="radio" name="sex" value="male"> Male <br>
+  		<input type="radio" name="sex" value="female"> Female <br>
+  		<input type="radio" name="sex" value="other"> Other <br><br>
+
+  		Your views on Demonetization: <br>
+  		<textarea name="message" rows="10" cols="40"></textarea><br><br>
+
+		Prefered Car Company: <br>
+		<input list="cars" name="Cars">
+		<datalist id="cars">
+			<option value="Audi">
+			<option value="Lamborghini">
+			<option value="Ferrari">
+			<option value="Rolls Royce">
+			<option value="McLaren">
+		</datalist><br><br>
+
+		TV Shows you like: <br>
+		<input type="checkbox" name="s1" value="friends">F.R.I.E.N.D.S <br>
+		<input type="checkbox" name="s2" value="siliconv">Silicon Valley <br>
+		<input type="checkbox" name="s3" value="himym">How I met yor mother <br>
+		<input type="checkbox" name="s4" value="arrow">Arrow <br>
+		<input type="checkbox" name="s5" value="flash">Flash <br><br>
+
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+
+	</form>
+</body>
+</html>

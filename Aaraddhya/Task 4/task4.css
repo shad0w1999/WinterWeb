@@ -2,27 +2,43 @@ h1
 {
   padding: 1%;
   margin-top: -8px;
-  margin-left: 33.33%;
+  margin-left: 33%;
+  margin-top: 8px;
   width: 33.33%;
-  border: 2px solid blue;
-text-align: center;
+  border: 2px solid red;
+  text-align: center;
+    border-radius: 8px;
+}
+input::-webkit-input-placeholder {
+color: red;
+}
+.field_set{
+  border-color: red;
+  border-style: solid;
+  margin-left: 23.33%;
+  margin-right: 23.33%;
+  text-align: center;
 }
 body
 {
-  background-image: url("Background.jpg");
+  background-color: hotpink;
   font-family: monospace;
   font-size: 20px;
   color: white;
   text-align: left;
+  color: red;
+  border: 2px solid red;
+  padding: 1%;
+    border-radius: 8px;
 }
 legend
 {
-  color: blue;
+  color: red;
   font-family: monospace;
 }
 .button
 {
-    background-color: grey;
+    background-color: hotpink;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -30,29 +46,28 @@ legend
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin: 4px 2px;
+    margin: 8px 2px;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
 }
 .button1
 {
-    background-color: lightgrey;
-    color: black;
-    border: 2px solid grey;
+    background-color: pink;
+    color: hotpink;
+    border: 2px solid red;
 }
 
 .button1:hover
 {
-    background-color: grey;
+    background-color: hotpink;
     color: white;
-      border-bottom: 2px solid blue;
 }
 input[type=text] {
     width: 150px;
     box-sizing: border-box;
-    border: 2px solid blue;
-    border-radius: 4px;
+    border: 2px solid red;
+    border-radius: 8px;
     font-size: 15px;
     background-color: white;
     background-position: 10px 10px;
@@ -61,17 +76,18 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     font-family: monospace;
-    background-color: lightgrey;
+    background-color: pink;
+    color: red;
 }
 
-input[type=text]:hover {
+input[type=text]:hover{
     width: 50%;
 }
 input[type=password] {
     width: 150px;
     box-sizing: border-box;
-    border: 2px solid blue;
-    border-radius: 4px;
+    border: 2px solid red;
+    border-radius: 8px;
     font-size: 15px;
     background-color: white;
     background-position: 10px 10px;
@@ -80,24 +96,29 @@ input[type=password] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     font-family: monospace;
-    background-color: lightgrey;
+    background-color: pink;
+    color: red;
 }
 
 input[type=password]:hover {
     width: 50%;
 }
-select {
-    width: 100%;
-    padding: 16px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: lightgrey;
-    color: black;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    font-family: monospace;
-    border: 2px solid blue;
-      width: 150px;
+select
+{
+  padding: 16px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: pink;
+  color: hotpink;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  font-family: monospace;
+  border: 2px solid red;
+    width: 150px;
+    color: red;
+    text-align: center;
+    text-align-last:center;
+      border-radius: 8px;
 }
 input[type=button], input[type=submit], input[type=reset] {
     border: none;
@@ -105,13 +126,22 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-    background-color: lightgrey;
-    color: black;
-    border: 2px solid grey;
+    background-color: pink;
+    color: red;
+    border: 2px solid red;
+      border-radius: 8px;
   }
   input[type=submit]:hover
   {
-      background-color: grey;
+      background-color: hotpink;
       color: white;
-        border-bottom: 2px solid blue;
   }
+  fieldset
+  {
+    background-color: pink;
+      border-radius: 8px;
+  }
+.placeholder
+{
+color: red;
+}
