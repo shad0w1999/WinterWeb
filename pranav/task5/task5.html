@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Pocket: Recommended</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-glyphicons.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/task5.css" />
+	<link rel="shortcut icon" href="images/pocketIcon.ico"/>
+	<script type="text/javascript" src="task5.js"></script>
+
+</head>
+<body>
+
+<div id="topLine">
+	<div id="topLinePart1" class="line">
+	</div>
+	<div id="topLinePart2" class="line">
+	</div>
+	<div id="topLinePart3" class="line">
+	</div>
+	<div id="topLinePart4" class="line">
+	</div>
+</div>
+<header>
+	<nav>
+	<div id="hamburgerIcon" onclick="dispPanel()">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<div id="heading">Recommended</div>
+	<div><a href="#" onclick="homeActive()"><img id="logo" src = "images/PocketAppLogo.png" /></a></div>
+	<ul id="navLinks" class="">
+		<li id="home" onclick="homeActive()"><a href="#" class="">Home</a></li>
+		<li id="recommended" onclick="recommendedActive()"><a href="#" class="active">Recommended</a></li>
+		<li id="explore">
+			<a href="#">Explore&nbsp;<span class="fa fa-angle-right"></span></a>
+			<div id="exploreTip">Explore the most interesting articles and videos the web has to offer for any topic, hand-selected by the Pocket community.</div>
+		</li>
+	</ul>
+	<ul id="navRight">
+		<li>&nbsp;</li>
+		
+		<li class="hasDropContent"><a href="#" id="search" onclick="openSearch()"><span class="glyphicon glyphicon-search"></span></a><div class="toolTip">Search</div></li>
+		
+		<li class="hasDropContent"><a href="#" id="plus" class="dropContentLink"><span class="glyphicon glyphicon-plus"></span></a><div class="toolTip">Save&nbsp;a&nbsp;URL</div><div class="dropContent"><strong>Save an item to Pocket</strong><br /><br /><form><input type="text" placeholder="http://..." /><input type="submit" name="save" value="Save" /></ins></form></div></li>
+		
+		<li class="hasDropContent"><a href="#" id="envelope" class="dropContentLink"><span class="glyphicon glyphicon-envelope"></span></a><div class="toolTip">View&nbsp;Inbox</div><div class="dropContent"><strong>Your Inbox is Empty</strong><br /><br />When someone shares items with you using Send to Friend, they will appear here.<br /><br />You can also use Send to Friend to share items directly to a friend's Pocket. Look for Send to Friend in the Share menu.</div></li>
+		
+		<li><div class="verticalLine"></div></li>
+		
+		<li id="user">
+			<a href="#" id="userProfile">
+				<div>
+					<div class="profilePic" id="navProfilePic"></div>
+					<span class="firstName" id="navFirstName">Pranav</span>&nbsp;<span class="glyphicon glyphicon-chevron-down nameDrop"></span>
+				</div>
+			</a>
+			<div id="userOptionList">
+			<ul>
+				<li class="userOptions">
+					<a href="#" id="viewProfile">
+						<div class="profilePic" id="viewProfilePic"></div>
+						<div id="name" class="optionListText">
+							<span class="firstName">Pranav</span>&nbsp;<span class="lastName">Tharoor</span><br />
+							<span class="small">View Profile</span>
+						</div>
+					</a>
+				</li>
+				<li><div class="verticalSpacing"></div></li>
+				<li class="userOptions">
+					<a href="#" id="premium">
+						<div class="optionListText"><span class="glyphicon glyphicon-flash"></span>&nbsp;&nbsp;&nbsp;Premium</div>
+					</a>
+				</li>
+				<li class="userOptions">
+					<a href="#" id="help">
+						<div class="optionListText"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;&nbsp;Help</div>
+					</a>
+				</li>
+				<li class="userOptions">
+					<a href="#" id="options">
+						<div class="optionListText"><i class="material-icons">&#xe8b8;</i>&nbsp;&nbsp;&nbsp;Options</div>
+					</a>
+				</li>
+				<li class="userOptions">
+					<a href="#" id="logout">
+						<div class="optionListText"><span class="glyphicon glyphicon-log-out"></span>&nbsp;&nbsp;&nbsp;Logout</div>
+					</a>
+				</li>
+			</ul>
+			</div>
+		</li>
+	</ul>
+	<div id="searchPanel"><input type="text" placeholder="Search" autofocus="autofocus" /><div id="closeSearchButton" onclick="closeSearch()"><span class="fa fa-close"></span></div></div>
+	</nav>
+</header>
+
+<div id="cover" onclick="hidePanel()"></div>
+
+<aside id="leftPanel">
+	<div id="panelLogoTab"><img id="leftPanelLogo" src="images/pocketName.png" /><div id="panelCloseButton" onclick="hidePanel()"><span class="fa fa-close"></span></div></div>
+	<div id="leftPanelOptions">
+	<a href="#" onclick="homeActive()"><div class="panelLinks"><span class="glyphicon glyphicon-chevron-down panelIcon"></span>&nbsp;&nbsp;&nbsp;&nbsp;My List</div></a>
+	<a href="#" onclick="recommendedActive()"><div class="panelLinks smallWindow smallWindow">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recommended</div></a>
+	<a href="#"><div class="panelLinks"><span class="glyphicon glyphicon-star"></span>&nbsp;&nbsp;&nbsp;&nbsp;Favourites</div></a>
+	<a href="#"><div class="panelLinks"><span class="fa fa-check"></span>&nbsp;&nbsp;&nbsp;&nbsp;Archive</div></a>
+	<a href="#"><div class="panelSubLinks">&nbsp;Articles</div></a>
+	<a href="#"><div class="panelSubLinks">&nbsp;Videos</div></a>
+	<a href="#"><div class="panelSubLinks">&nbsp;Images</div></a>
+	<a href="#"><div class="panelLinks"><span class="glyphicon glyphicon-tag"></span>&nbsp;&nbsp;&nbsp;&nbsp;Tags&nbsp;&nbsp;<span class="fa fa-angle-right"></span></div></a>
+	<a href="#"><div class="panelLinks smallWindow"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;&nbsp;&nbsp;Inbox</div></a>
+	<a href="#"><div class="panelLinks smallWindow"><i class="material-icons profileIcon">&#xe8a3;</i>&nbsp;&nbsp;&nbsp;&nbsp;View Profile</div></a>
+	<a href="#"><div class="panelLinks smallWindow"><span class="glyphicon glyphicon-flash panelIcon"></span>&nbsp;&nbsp;&nbsp;&nbsp;Premium</div></a>
+	<a href="#"><div class="panelLinks smallWindow"><i class="material-icons">&#xe8b8;</i>&nbsp;&nbsp;&nbsp;&nbsp;Options</div></a>
+	<a href="#"><div class="panelLinks smallWindow"><span class="glyphicon glyphicon-question-sign"></span>&nbsp;&nbsp;&nbsp;&nbsp;Help</div></a>
+	<a href="#"><div class="panelLinks smallWindow"><span class="glyphicon glyphicon-log-out"></span>&nbsp;&nbsp;&nbsp;&nbsp;Logout</div></a>
+	</div>
+</aside>
+
+<aside id="bottomLeftLinks">
+	<span><a href="#" class="">Careers at Pocket</a></span>
+	<span><a href="#" class="">Become a Sponsor</a></span>
+	<span><a href="#" class="">More</a></span>
+</aside>
+
+<div id="searchCover" onclick="closeSearch()"></div>
+
+<section id="homeSection" class="">
+	<div class="title">My List</div>
+</section>
+<section id="recommendedSection" class="activeSection">
+	<div class="title">Recommended</div>
+	<div id="cards">
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/marble.jpg"></div>
+				<div class="subCard cardContent">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+				<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/die.jpg"></div>
+				<div class="subCard cardContent">Lorem ipsum dolor sit amet, consectetur</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+					<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/clock.jpg"></div>
+				<div class="subCard cardContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+					<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/elephant.jpg"></div>
+				<div class="subCard cardContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+					<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/leaf.jpg"></div>
+				<div class="subCard cardContent">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+					<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/marble.jpg"></div>
+				<div class="subCard cardContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+					<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/die.jpg"></div>
+				<div class="subCard cardContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+					<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/clock.jpg"></div>
+				<div class="subCard cardContent">Lorem</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+					<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/elephant.jpg"></div>
+				<div class="subCard cardContent">Lorem ipsum dolor sit amet</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+					<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<article class="card">
+			<a class="cardLink subCard" href="#">
+				<div class="subCard cardHeader small">Best of Pocket</div>
+				<div class="subCard cardImage" data-img-src="images/leaf.jpg"></div>
+				<div class="subCard cardContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</div>
+				<div class="subCard cardAuthor small">Pranav Tharoor</div>
+			</a>
+			<div class="horizontalLine"></div>
+			<div class="subCard cardOptions">
+				<div class="cardSave small"><span class="glyphicon glyphicon-chevron-down cardIcon"></span>&nbsp;&nbsp;Save</div>
+					<div class="cardDots">
+					<ul>
+						<li><span class="glyphicon">&#xe234;</span></li>
+						<li><div class="hideCard"><span class="fa fa-close"></span>&nbsp;&nbsp;Hide This</div></li>
+						<li><div class="copyLink"><span class="glyphicon glyphicon-link"></span>&nbsp;Copy&nbsp;Link</div></li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+	</div>
+</section>
+
+</body>
+</html>

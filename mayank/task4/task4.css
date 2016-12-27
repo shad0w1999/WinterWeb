@@ -1,0 +1,24 @@
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 0;
+	text-align: center;
+	font-family: "Calibri";
+	background-image: url(mk.jpeg);
+	background-size: cover;
+	
+}
+
+h1 {
+	font-family: "Minion";
+}
+
+fieldset{
+	background-color: white;
+}
+
+i {
+	opacity: 0.6;
+}
+
+
