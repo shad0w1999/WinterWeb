@@ -1,0 +1,25 @@
+body {
+	background-image: url("back.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	font-family: georgia;
+	color: white;
+	opacity:0.9;
+	font-size:500;
+}
+table{
+	font:inherit;
+	font-size: inherit;
+	align-content: center;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {
+ opacity:0.85}
+ input[type=number]{
+    width: 50px;
+}
