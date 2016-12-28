@@ -1,0 +1,191 @@
+select {
+    width: 50%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+
+}
+textarea {
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=date]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+
+    input[type=radio] {   
+    cursor:pointer;
+    border-radius:40px;
+    width:100px;
+    height:10px;
+    position:relative;
+    padding:12px 20px;
+    margin: 8px 0px;
+    
+}
+  
+
+    .container{
+    margin:10px;
+}
+
+    .inline {
+    display:inline-block;
+    margin-left:5px;
+}
+
+    .radio span{
+    positon:relative;
+    padding-left:20px;
+    font-family: Lato;
+    color:#888;
+}
+
+
+input[type=number] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=checkbox]{
+    width: 50%;
+    padding: 0.85em;
+    margin: 8px 0px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position:relative;
+    
+}
+    .chkb {
+    margin:10px;
+}
+
+    .checkbox span{
+    positon:relative;
+    padding-left:20px;
+    font-family:Lato;
+    color:#888;
+}
+
+h1{
+    font: 35px  papyrus bold;
+    padding: 20px 60px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: 10px 30px 30px 30px;
+    color: #888;
+}
+h3 {
+    font-family: Lato;
+    color: #888;
+
+}
+h4 {
+    font-family: Lato;
+    color: #888;
+}
+fieldset {
+    text-align:center;
+}
+
+body,html {
+    background :#222222;
+    font-family:Lato;
+}
+
+.cols {
+  display: block;
+  position: relative;
+  height: 250px;
+  width: 500px;
+  margin:10px;
+}
+
+ul li{
+  color: #AAAAAA;
+  display:block;
+  position: relative;
+ 
+  width: 100%;
+  height: 50px;
+}
+
+ul li .radio span{
+  display:block;
+  position: relative;
+  font-weight: 50;
+  font-size: 0.85em;
+  padding:35px 35px 35px 90px;
+  margin: 6px 0px;
+  height: 15px;
+ 
+}
+
+ul li.inline{
+  display: block;
+  position: relative;
+  border: 2px solid #AAAAAA;
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  
+  
+
+}
+input[type=submit] {
+  background:linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-align:center;
+  width: 240px;
+  position:realtive;
+  clear:both;
+  margin:10px auto ;
+
+}
+

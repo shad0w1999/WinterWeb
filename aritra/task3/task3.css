@@ -1,9 +1,11 @@
 body {margin:0;
 font-size: 50px;
 background-color: lightblue}
-#title {position: fixed}
-#one, #two {float:left;
-            padding-right: 20vw}
+#title {position: fixed;
+        background-color: #fffafa;
+        opacity: 0.7}
+#one, #two,#three {float:left;
+            padding-right: 19.8vw}
 #name1,#name2,#name3 {
     color: white;
     margin-top: 80vh;
