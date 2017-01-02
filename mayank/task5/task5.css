@@ -54,7 +54,7 @@ body {
 
 
 .sidebar {
-	
+
 	height: 100%;
 	background-color: #f4f4f6;
 	position: fixed;
@@ -65,13 +65,13 @@ body {
 #sidetext {
 	position: fixed;
 	bottom: 20px;
-	left: 30px;	
+	left: 30px;
 	color: #a6a6a6;
-	
+
 
 }
 
-p { 
+p {
 	font-family: inherit;
 	font-weight: 400;
 	line-height: 1.5;
@@ -96,7 +96,7 @@ position: relative;
 	padding: 10px 0px 0px 35px;
 	background-color: #f4f4f6;
 	float: left;
-	
+
 
 }
 
@@ -104,7 +104,7 @@ h2 {
 	font-size: 1.15385em;
 	font-weight: 600;
 	margin: 1.3em 1.7em 0;
-	
+
 }
 
 
@@ -129,7 +129,7 @@ h2 {
 
 
 #h {
-	
+
 	font-size: 2.78em;
 	font-weight: 300;
 	line-height: 1.4;
@@ -140,17 +140,17 @@ h2 {
 
 
 .card {
-	
+
 	width: 260px;
 	height: 350px;
 	display: inline-block;
-	background-color: white;	
+	background-color: white;
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 20px;
 
-	
+
 }
 
 #card_image {
@@ -170,7 +170,7 @@ h2 {
 	top: -10px;
 	color: #313131;
 
-} 
+}
 
 
 .link{
@@ -189,7 +189,7 @@ h2 {
 	left: 0;
 	margin: 0;
 	position: absolute;
-	
+
 	z-index: 10;
 }
 
@@ -202,7 +202,7 @@ h2 {
 	background-repeat: no-repeat;
 
 }
-	
+
 #card_image3 {
 	width: 260px;
 	height: 200px;
@@ -258,7 +258,3 @@ h2 {
 	background-repeat: no-repeat;
 
 }
-
-
-
-
