@@ -4,6 +4,8 @@
 	<title> Pocket: Recommended </title>
   <link rel="shortcut icon" href="iecse.ico" />
 	<link rel= "stylesheet" type= "text/css" href= "Task5.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 	</head>
 	<body>
 
@@ -15,19 +17,28 @@
 	</div>
 
 	<nav class= "pkt-nav">
-		<div class= "divider"></div>
 	<span style= "cursor:pointer">
 		<img id= "ih1" src= "pocket.png""/>
 		<h2 id= "h1"> Home </h2>
 		<h2 id= "h2"> Recommended</h2>
+		<h2 id="h3"> Explore > </h2>
 		<div class="tooltip">
   				<span class="tooltiptext"> Explore the most interesting articles and videos the web has to offer for any topic , hand-selected by the pocket community.</span>
-				<h2 id="h3"> Explore > </h2> </div>
-<img id= "ih2" src= "ss.png""/>
+		</div>
+        <img id= "ih2" src= "ss.png""/>
 	</span>
 	</nav>
 
-
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$("#h3").hover(function() {
+				$('.tooltiptext').css('visibility', 'visible');
+			}, function() {
+				$('.tooltiptext').css('visibility', 'hidden');
+			});
+		});
+	</script>
+	<div class= "divider"></div>
 
 	<span style= "cursor:pointer">
 	<p id= "sidetext">
