@@ -1,0 +1,21 @@
+.part1 {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	display: inline-block;
+	
+}
+
+.part3 {
+	height: 40px;
+	width: 40px;
+	background-color: red;
+	display: inline-block;
+	position: relative;
+	border-radius: 100%;
+
+}
+
+.part4 {
+	display: inline-block;
+}
