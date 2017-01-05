@@ -1,0 +1,46 @@
+body {
+	padding: 10px 30px;
+	margin-bottom: 100px;
+	font-family: sans-serif;
+}
+
+#square {
+	background: blue;
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+}
+
+p {
+	background: #999;
+	padding: 10px;
+}
+
+#circle {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	background:red;
+	border-radius: 15px;
+	margin: 10px;
+	margin-bottom: 110px;
+}
+
+#click {
+	height: 200px;
+	width: 400px;
+	background: #333;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+
+hr {
+	margin: 30px 0;
+}
+
+#counter {
+	display: inline-block;
+}

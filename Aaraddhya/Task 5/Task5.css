@@ -9,7 +9,7 @@ body {
     color: #313131;
 }
 
-.rainbow_toolbar {
+.rainbow_tool {
 	display: block;
 	position: fixed;
 	left: 0;
@@ -89,7 +89,7 @@ position: relative;
 
 }
 
-#ih{
+#ih1{
 	display: inline-block;
 	width: 80px;
 	height: 3vh;
@@ -98,6 +98,14 @@ position: relative;
 	float: left;
 
 
+}
+#ih2{
+	display: inline-block;
+	width: 20x0px;
+	height: 3vh;
+	padding: 10px 0px 0px 35px;
+	background-color: #f4f4f6;
+	float: right;;
 }
 
 h2 {
@@ -112,13 +120,13 @@ h2 {
 	display: inline-block;
 	float: left;
 }
-
-#h1 {
-	margin: 1em 0 0 80;
+#h1:hover, #h2:hover, #h3:hover {
+  color:#50BCB6;
 }
-
-#h2,#h3 {
-	margin: 1em 0 0 60;
+#h2{
+    color:#50BCB6;
+    border-bottom: 4px solid #50BCB6 ;
+    padding-bottom: .8%;
 }
 
 #main {
@@ -126,7 +134,24 @@ h2 {
 	height:200vh;
 	width:85vw;
 }
+.tooltip {
+   position: relative;
+   display: inline-block;
 
+}
+.tooltip, .tooltiptext {
+   border-style: solid; background-color: white;
+   visibility: hidden;
+   width: auto;
+   color: black;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px 0;
+   position: absolute;
+   z-index: 1;
+   top: 80%;
+   left: 30%;
+}
 
 #h {
 
@@ -153,10 +178,10 @@ h2 {
 
 }
 
-#card_image {
+#card_i {
 	width: 260px;
 	height: 200px;
-	background-image: url(pic1.jpg);
+	background-image: url(1.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -171,7 +196,9 @@ h2 {
 	color: #313131;
 
 }
-
+.card_title:hover {
+    color:#50BCB6;
+}
 
 .link{
 	font-size: 1em;
@@ -181,7 +208,7 @@ h2 {
 	margin-left: 20px;
 }
 
-#card_toolbar {
+#card_tool {
 	background-color: #fff;
 	float: left;
 	font-size: 1em;
@@ -194,19 +221,19 @@ h2 {
 }
 
 
-#card_image2 {
+#card_i2 {
 	width: 260px;
 	height: 200px;
-	background-image: url(barca.jpg);
+	background-image: url(2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
 }
 
-#card_image3 {
+#card_i3 {
 	width: 260px;
 	height: 200px;
-	background-image: url(pic3.jpg);
+	background-image: url(3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -214,47 +241,51 @@ h2 {
 
 }
 
-#card_image4 {
+#card_i4 {
 	width: 260px;
 	height: 200px;
-	background-image: url(pic4.jpeg);
+	background-image: url(4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
 }
 
-#card_image5 {
+#card_i5 {
 	width: 260px;
 	height: 200px;
-	background-image: url(pic5.jpg);
+	background-image: url(5.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
 }
 
-#card_image6 {
+#card_i6 {
 	width: 260px;
 	height: 200px;
-	background-image: url(pic6.jpeg);
+	background-image: url(6.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
 }
 
-#card_image7 {
+#card_i7 {
 	width: 260px;
 	height: 200px;
-	background-image: url(pic7.jpg);
+	background-image: url(7.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
 }
 
-#card_image8 {
+#card_i8 {
 	width: 260px;
 	height: 200px;
-	background-image: url(pic8.jpg);
+	background-image: url(8.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 
+}
+
+#card_i:hover ,#card_i2:hover,#card_i3:hover,#card_i4:hover,#card_i5:hover,#card_i6:hover,#card_i7:hover,#card_i8:hover{
+  color:#50BCB6;
 }
