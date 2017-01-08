@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" type="text/css" href="bill.css" />
+	<script src="jquery.min.js"></script>
+	<script type="text/javascript" src="bill.js"></script>
+</head>
+<body>
+	<div id="title">Bill</div>
+	<div id="menu">
+	<form>
+	<table>
+		<tr>
+			<td>Item</td>
+			<td>Rate (Rs.)</td>
+			<td>Quantity</td>
+			<td>Cost (Rs.)</td>
+		</tr>
+		<tr>
+			<td>Apple</td>
+			<td class="rate">150</td>
+			<td>
+				<input type="number" step="any" name="quantity" />
+			</td>
+			<td class="cost">0</td>
+		</tr>
+		<tr>
+			<td>Orange</td>
+			<td class="rate">60</td>
+			<td>
+				<input type="number" step="any" name="quantity" />
+			</td>
+			<td class="cost">0</td>
+		</tr>
+		<tr>
+			<td>Banana</td>
+			<td class="rate">75.5</td>
+			<td>
+				<input type="number" step="any" name="quantity" />
+			</td>
+			<td class="cost">0</td>
+		</tr>
+		<tr>
+			<td>Grapes</td>
+			<td class="rate">30</td>
+			<td>
+				<input type="number" step="any" name="quantity" />
+			</td>
+			<td class="cost">0</td>
+		</tr>
+		<tr>
+			<td>Carrot</td>
+			<td class="rate">45.5</td>
+			<td>
+				<input type="number" step="any" name="quantity" />
+			</td>
+			<td class="cost">0</td>
+		</tr>
+	</table>
+	</div>
+	<div id="total">
+	<button type="reset" value="Reset" id="reset">Reset</button>
+	Total(Rs.):&nbsp;&nbsp;<div id="answer">0</div>
+	</div>
+	</form>
+</body>
+</html>
