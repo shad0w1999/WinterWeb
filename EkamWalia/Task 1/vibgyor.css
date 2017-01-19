@@ -1,0 +1,50 @@
+body,html{
+    
+    height:100%;
+}
+div:hover{
+    opacity:0.5;
+}
+
+#voilet {
+    width:14.28%;
+    height:100%;
+    float:left;
+    background-color:#660066;
+}
+#indigo {
+    width:14.28%;
+    height: 100%;
+   float:left;
+    background-color:#000066;
+}
+#blue {
+    width:14.28%;
+    height: 100%;
+    float:left;
+    background-color:#0033cc;
+}
+#green{
+    width:14.28%;
+    height:100%;
+    float:left;
+    background-color:green;
+}
+#yellow{
+    width:14.28%;
+    height:100%;
+    float:left;
+    background-color:yellow;
+}
+#orange {
+    width:14.28%;
+    height:100%;
+    float:left;
+    background-color:orange;
+}
+#red{
+    width:14.28%;
+    height:100%;
+    float:left;
+    background-color:red;
+}

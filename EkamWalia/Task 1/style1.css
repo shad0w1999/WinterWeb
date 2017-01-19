@@ -1,0 +1,12 @@
+    body
+    {
+    	background-color: powderblue;
+    }
+    .style1
+    {
+	 font-family: "Monotype Corsiva";
+	 font-size: 100px;
+	 position: absolute;
+	 left=  1000px;
+	 rigth= 7000px;
+    }
