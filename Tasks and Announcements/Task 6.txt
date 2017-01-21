@@ -1,0 +1,18 @@
+Hey everyone :) 
+So by now, it's been almost a month since we started with Web Dev. We hope that you atleast have a basic understanding of HTML and CSS. Those who submitted all the tasks now know how to create layouts, design one page websites and be able to copy other designs effectively. Now we'll be moving ahead with basic JS tasks. This task is going to be a series of mini tasks, and it shouldn't take much time to solve. Before starting this, go through the basics of JS from W3 schools, stuff like variables, arrays and functions. 
+
+We are not going to be using pure JS, the reason being that a lot of unnecessary stuff that needs to be written. We'll instead focus on JQuery. The purpose of jQuery is to make it much easier to use JavaScript on your website. JQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code. It uses selectors similar to CSS, so it shouldn't be hard to pick up. 
+
+Here are your tasks:
+1. Hide a square div with height and width 100 px on clicking a button. 
+2. Create five <p> elements, and hide them one by one when each of the <p> elements are clicked. 
+3. Create a red circle div, and make it move in a square path on clicking a button. (first move right by 100 px, followed by 100 px down, 100 px to the left, and then 100 px upwards
+4. Count the number of times a div is clicked, and display the counter below the div. Update the counter time each time a click occurs. 
+
+These tasks shouldn't take up much time, and we hope you can finish it in two days so that we can give you one final task before college reopens.
+
+Here are a list of things you should read before starting with JQuery : JS variables, JS functions and JS arrays. 
+
+How to get started with JQuery:
+
+http://www.w3schools.com/jquery/jquery_intro.asp

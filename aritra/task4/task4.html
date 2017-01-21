@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head >
+<link rel="stylesheet" type="text/css" href="task4.css" />
+</head>
+<body>
+	<h1 align="center">Choice of subjects for 3rd sem:</h1>
+	<form>
+	<table id="table" align="center">
+		<tr>
+		<td>FIRST NAME:</td>
+		<td><input type="text" name="name" required="required"></td>
+		</tr>
+		<tr>
+		<td>LAST NAME:</td>
+		<td><input type="text" name="name" required="required"></td>
+		</tr>
+		<tr>
+		<td>CGPA:</td>
+		<td><input type="number" name="name" required="required" size="5"></td>
+		</tr>
+		<tr>
+		<td>D.O.B:</td>
+		<td><input type="date" name="D.O.B" required="required"></td>
+		</tr>
+		<tr>
+		<td>GENDER:</td>
+		<td colspan="3">
+		<input type="radio" name="gender" value="male" required="required">Male<br>
+		<input type="radio" name="gender" value="female" required="required">Female<br>
+		<input type="radio" name="gender" value="others" required="required">Others</td>
+		</tr>
+		<tr>
+		<td>ADDRESS:</td>
+		<td><textarea name="address" rows="10" cols="50" required="required"></textarea></td>
+		</tr>
+		<tr>
+		<td>STREAM:</td>
+		<td>
+		<select name="stream" id="stream">
+			<option selected="selected" disabled="disabled">select stream</option>
+			<option>C.S.E</option>
+			<option>C.C.E</option>
+			<option>I.T</option>
+			<option>Something Else</option>
+		</select>
+		</td>
+		</tr>
+		<tr>
+		<td>Choices Of subjects</td>
+		<td>
+		<input type="checkbox" name="first" checked>Engineering Maths<br>
+		<input type="checkbox" name="second">Object Oriented Programming<br>
+		<input type="checkbox" name="third">Switch Circuits and Logic Design<br>
+		<input type="checkbox" name="fourth">Computer Organisation and Desing<br>
+		<input type="checkbox" name="fifth">Data Structures
+		</td>
+		</tr>
+		<tr>
+		<td><input type="reset"></td>
+		<td><input type="submit" name="submit"></td>
+		</tr>
+	</table>
+</body>

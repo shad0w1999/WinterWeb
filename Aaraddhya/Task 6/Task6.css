@@ -1,0 +1,32 @@
+
+#square {
+	background: black;
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+}
+
+#circle {
+	position: relative;
+	height: 30px;
+	width: 30px;
+	background:red;
+	border-radius: 15px;
+	margin: 10px;
+	margin-bottom: 110px;
+}
+
+#click {
+	align-items: center;
+  background-color: black;
+  color: white;
+  width: 33.33%;
+}
+
+hr {
+	margin: 30px 0;
+}
+
+#counter {
+	display: inline-block;
+}

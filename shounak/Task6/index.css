@@ -1,0 +1,21 @@
+#p1{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+#p2{
+  width:100px;
+}
+
+#p3{
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  position: absolute;
+}
+
+#cont{
+  height: 150px;
+  width: 200px;
+}
