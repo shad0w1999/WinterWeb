@@ -1,0 +1,51 @@
+body{background-color: black;
+	 color:yellow;
+	 margin:0;
+}
+		#one{
+			width:100%;
+			height:auto;
+			background-color:lightgreen;
+			text-align: center;
+			margin-top:-21px;
+			color:black;
+		}
+		#two{
+			width:100%;
+			height:auto;
+			background-color:lightgreen;
+			text-align: center;
+			color:black;
+
+		}
+		#task1{
+			height:100px; width:100px;
+			background: lightgreen;
+			
+			margin-top:20px; margin-left:46%;
+		} #hide{
+			margin-left:47%;
+			margin-top: 10px;
+
+		} #align{margin-left:47%;}
+		#circle {
+ 	position: relative;
+ 	height: 30px;
+ 	width: 30px;
+ 	background:lightblue;
+ 	border-radius: 15px;
+ 	margin: 10px;
+ 	margin-bottom: 110px;
+ }
+ 
+ #count {
+ 	padding-left:45%;
+ 	font-family: monotype corsiva;
+ 	font-size: 30px;
+ 	color:lightgreen;
+}
+
+ 
+ #counter {
+ 	display: inline-block;
+ }

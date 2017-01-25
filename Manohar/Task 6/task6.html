@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 6</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#hide").click(function(){
+				$("#task1").hide(1000);
+			})
+			$("p").click(function(){
+				$(this).hide(1000);
+			})
+			$("#move").click(function() {
+    		$("#circle").animate({left: '100px'}).animate({top: '100px'}).animate({left: '0'}).animate({top: '0'});
+    	});
+    	$("#count").click(function() {
+    		$("#counter").text(parseInt($("#counter").text()) + 1);
+    	});
+		})
+	</script>
+	<link rel="stylesheet" type="text/css" href="task6.css">
+</head>
+<body>
+	<div id="one"><h1>Task 1</h1></div>
+	<div id="task1"></div>
+	<button id="hide"> Hide Green </button>
+	<div id="two"><h1>Task 2</h1></div>
+	<div id="align"><p> one </p>
+	<p> two </p>
+	<p> three </p>
+	<p> four </p>
+	<p> five </p></div>
+
+	<div id="two"><h1>Task 3</h1></div><div id="align">
+	<button id="move">Move</button>
+    <div id="circle"></div></div>
+    <div id="two"><h1>Task 4</h1></div>
+    <span style="cursor: pointer;">
+    <div id="count">Click 
+    </span><br>
+    No: of clicks: <div id="counter">0</div>
+    </div>
+</body>
+</html>
